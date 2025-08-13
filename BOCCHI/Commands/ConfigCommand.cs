@@ -15,8 +15,8 @@ public class ConfigCommand(Plugin plugin) : OcelotCommand
     protected override string Description
     {
         get => @"
-Opens Occult Crescent Helper config ui
- - /bocchicfg : Opens the config ui
+打开 Occult Crescent Helper 设置界面
+ - /bocchicfg : 打开设置界面
 --------------------------------
 ".Trim();
     }

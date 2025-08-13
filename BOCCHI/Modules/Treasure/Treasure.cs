@@ -93,9 +93,9 @@ public class Treasure(IGameObject obj)
     {
         return GetTreasureType() switch
         {
-            TreasureType.Bronze => "Bronze Treasure Coffer",
-            TreasureType.Silver => "Silver Treasure Coffer",
-            _ => "Unknown Treasure Coffer",
+            TreasureType.Bronze => "铜宝箱",
+            TreasureType.Silver => "银宝箱",
+            _ => "未知宝箱",
         };
     }
 }
